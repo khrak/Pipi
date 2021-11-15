@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="homePage.css" />
 </head>
 <body>
-    <h1>Home page </h1>
+
+    <script>
+        function myFunction() {
+            alert(document.getElementById("text").value);
+            alert(document.getElementById("Min-price").value);
+            alert(document.getElementById("max-price").value);
+        }
+    </script>
+
+    <div id="navbar">
+        <a href="#home-page" id="homepage" class="nav-link">Pipi</a>
+        <a href="#login" id="Login" class="nav-link float-right">Login</a>
+    </div>
+
+    <div id="center">
+        <form id="form">
+            <input id="text"
+                   type="text"
+                   name="text"
+                   placeholder="Car name"
+                   class="text">
+            </input>
+            <input id="Min-price"
+                   type="number"
+                   name="number"
+                   placeholder="Min-price"
+                   class="number"
+                   min="0" >
+            </input>
+            <input id="max-price"
+                   type="number"
+                   name="number"
+                   placeholder="Max-price"
+                   class="number"
+                   min="0" >
+            </input>
+            <button onclick="myFunction()">Search</button>
+        </form>
+    </div>
+
 </body>
 </html>

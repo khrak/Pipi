@@ -1,0 +1,60 @@
+body{
+  margin:0px;
+}
+
+#navbar {
+  position:fixed;
+  top: 0px;
+  width: 100%;
+  flex-wrap: nowrap; 
+  display: flex;
+  flex-direction: row; 
+  background: orange;
+  justify-content: space-between;
+}
+
+
+
+#homepage{
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: grey;
+}
+#Login{
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: grey;
+  position:relative;
+  
+}
+
+#navbar a:hover {
+  background: darkgrey;
+}
+
+
+
+#center{
+  padding-top: 9vh;
+  display:flex;
+	justify-content: center;
+  position:fixed;
+  width:100%;
+  margin:0 auto;
+  top: 50px;
+  width: 100%;
+  flex-direction: row; 
+}
+input{
+  margin-right:5px;
+  margin-bottom:20px;
+}
+
+
+
